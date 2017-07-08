@@ -1,5 +1,3 @@
-# Technology
-
 ## React
 * https://egghead.io/technologies/react 
 Javascript/ES6/Babel
