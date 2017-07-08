@@ -35,5 +35,4 @@ Webpack
 
 ## API
 Turbine:
-* https://api.schoolstatus.com/swagger/index.html?url=https://api.schoolstatus.com/swagger_doc#!/students/GET_students_format 
-* Credentials: user: ss-turbine pwd:  <ask-manager>
+    * [https://api.schoolstatus.com/swagger/index.html](https://api.schoolstatus.com/swagger/index.html?url=https://api.schoolstatus.com/swagger_doc#!/students/GET_students_format) 
