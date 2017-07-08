@@ -1,8 +1,8 @@
 # Editor
 
 ## Recommend
-Install Visual Studio Code
-Install the following extensions:
+* Install [Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)
+* Install the following extensions:
 
 ```
 DavidAnson.vscode-markdownlint
