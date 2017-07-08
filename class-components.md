@@ -1,57 +1,41 @@
-## Class Components:
+# Class Components
 
-### css
+## css
 
-Use the `glamor` library [here](https://github.com/threepointone/glamor).
+Use [styled-components](https://www.styled-components.com/docs/basics).
 
 Why?
 
-* adds vendor prefixes / fallback values 
-* supports all the pseudo :classes/::elements
-* `@media` queries
-* `@supports` statements
-* `@font-face` / `@keyframes`
-* dev helper to simulate pseudo classes like `:hover`, etc
+* write actual css to style your components.
+* supports all css features including:
+  * `@media` queries
+  * `:pseudo-elements, :pseudo-classes, :hover`, etc
+* Compatible with both React and React Native.
 
 ```jsx
-import { css } from 'glamor'
+import styled from 'styled-components'
 
-// make css rules 
-let rule = css({ 
-  color: 'red',
-  ':hover': {
-    color: 'pink'
-  },
-  '@media(min-width: 300px)': {
-    color: 'green',
-    ':hover': {
-      color: 'yellow'
-    }
-  }
-})
+// Create a Title component that'll render an <h1> tag with some styles
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
 
-// add as data attributes
-<div {...rule} {...another}>
-  zomg
-</div>
+// Create a Wrapper component that'll render a <section> tag with some styles
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
 
-// or as classes 
-<div className={`${rule} ${another}`}>
-  zomg
-</div>
-
-// merge rules for great justice 
-let mono = css({
-  fontFamily: 'monospace'
-})
-
-let bolder = css({
-  fontWeight: 'bolder'
-})
-
-<div {...css(mono, bolder)}>
-  bold code!
-</div>
+// Use Title and Wrapper like any other React component – except they're styled!
+const Page = () => (
+<Wrapper>
+  <Title>
+    Hello World, this is my first styled component!
+  </Title>
+</Wrapper>
+);
 ```
 
 ### imports
@@ -176,6 +160,3 @@ Avoid closures like below because every time the parent component renders, a new
   onChange={this.handleChange}
   placeholder="Your Name"/>
 ```
-
-
-
