@@ -1,8 +1,6 @@
-## Functional Components
+# Functional Components
 
-Use these types of components as often as possible. They have no state or methods.
-
-### propTypes
+## propTypes
 
 Assign the propTypes variable at the top of the file so it's easily viewable to the developer.
 
@@ -18,12 +16,11 @@ const expandableFormRequiredProps = {
 ExpandableForm.propTypes = expandableFormRequiredProps
 ```
 
-### Destructuring Props and defaultProps
+## Destructuring Props and defaultProps
 
 Destructure your props and use default arguments as defaultProps.
 
 ```js
-import React from 'react'
 import {observer} from 'mobx-react'
 import './styles/Form.css'
 const expandableFormRequiredProps = {

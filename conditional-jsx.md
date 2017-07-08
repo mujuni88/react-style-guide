@@ -1,57 +1,6 @@
-## Conditionals in jsx
+# Conditionals in jsx
 
-Solution using renderIf [here](https://atticuswhite.com/blog/render-if-conditionally-render-react-components/)
-
-Why?
-
-* Light weight. literally 4 lines of code
-* Takes a predicate and returns a function accepting an element that will only be returned if the predicate is satisfied
-
-## Examples
-
-### As an in-line condition
-
-```js
-render() {
-  return (
-    {renderIf(1 + 2 === 3)(
-      <span>Hello World!</span>
-    )}
-  );
-}
-```
-
-### As a named conditional function
-
-```
-render() {
-  const ifUniverseIsWorking = renderIf(1 + 2 === 3)
-  return (
-    {ifUniverseIsWorking(
-      <span>Everything is okay in the world</span>
-    )}
-  );
-}
-```
-
-### As a composed conditional function
-
-```
-const ifEven = count => renderIf(count % 2 === 0);
-const ifOdd = count => renderIf(count % 2 !== 0);
-render() {
-  return (
-    {ifEven(this.props.count)(
-      <span>{this.props.count} is an even number!</span>
-    )}
-    {ifOdd(this.props.count)(
-      <span>{this.props.count} is an odd number!</span>
-    )}
-  );
-}
-```
-
-### What are the approaches right now?
+## What are the approaches right now?
 
 * Lazy evaluation or short circuit evaluation
 
@@ -97,5 +46,51 @@ render() {
   }
   ```
 
+## Other solution: [renderIf](https://atticuswhite.com/blog/render-if-conditionally-render-react-components/)
 
+## Why?
 
+* Light weight. literally 4 lines of code
+* Takes a predicate and returns a function accepting an element that will only be returned if the predicate is satisfied
+
+## As an in-line condition
+
+```js
+render() {
+  return (
+    {renderIf(1 + 2 === 3)(
+      <span>Hello World!</span>
+    )}
+  );
+}
+```
+
+## As a named conditional function
+
+```
+render() {
+  const ifUniverseIsWorking = renderIf(1 + 2 === 3)
+  return (
+    {ifUniverseIsWorking(
+      <span>Everything is okay in the world</span>
+    )}
+  );
+}
+```
+
+## As a composed conditional function
+
+```
+const ifEven = count => renderIf(count % 2 === 0);
+const ifOdd = count => renderIf(count % 2 !== 0);
+render() {
+  return (
+    {ifEven(this.props.count)(
+      <span>{this.props.count} is an even number!</span>
+    )}
+    {ifOdd(this.props.count)(
+      <span>{this.props.count} is an odd number!</span>
+    )}
+  );
+}
+```
