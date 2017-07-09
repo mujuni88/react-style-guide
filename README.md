@@ -8,9 +8,9 @@
 
 1. Setup gmail
 
-2. Setup Slack
+2. Setup Slack `schoolstatus.slack.com`
 
-3. Setup Github. Enable [2-factor-auth](https://github.com/blog/1614-two-factor-authentication)
+3. Setup Github. Enable [2-factor-auth](https://github.com/blog/1614-two-factor-authentication).
 
 4. Dev Environment  
    1. Install everything in the Technology Stack tab  
