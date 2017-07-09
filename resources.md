@@ -1,8 +1,15 @@
+# Technology Stack
+
+![](/assets/ss-technology-ecosystem.png)
+
 ## React
 
+* Main framework for our projects. We use an ejected instance of [create-react-app](https://github.com/facebookincubator/create-react-app).
 * [https://egghead.io/technologies/react](https://egghead.io/technologies/react) 
-  Javascript/ES6/Babel
-* We use cutting edge javascript that is no available in all browsers yet. Babel is the Javascript compiler that allows us to use next generation Javascript today. 
+
+## Javascript/ES6/Babel
+
+* We use cutting edge javascript that is not available in all browsers yet. Babel is the Javascript compiler that allows us to use next generation Javascript today. 
 * [https://babeljs.io/](https://babeljs.io/)
 
 ## MobX
@@ -31,6 +38,12 @@ NPM \(Node package manager\)
 Yarn \(NPM alternative\)
 
 * [https://www.sitepoint.com/yarn-vs-npm/](https://www.sitepoint.com/yarn-vs-npm/)
+
+## Linters
+
+Standard js
+
+* [https://standardjs.com/](https://standardjs.com/)
 
 ## Version control
 

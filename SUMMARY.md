@@ -3,7 +3,7 @@
 ## Intro
 
 * [Introduction](README.md)
-* [Resources](resources.md)
+* [Technology Stack](resources.md)
 
 ## Styleguide
 
