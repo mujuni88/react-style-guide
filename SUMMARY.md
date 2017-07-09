@@ -12,7 +12,7 @@
 * [Functional Components](functional-components.md)
 * [Conditional Jsx](conditional-jsx.md)
 
-## Recommended
+## Recommendations
 
 * [Code Editor](editor.md)
 
