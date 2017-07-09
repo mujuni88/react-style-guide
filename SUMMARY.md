@@ -1,6 +1,6 @@
 # Summary
 
-## Intro
+## Getting Started
 
 * [Introduction](README.md)
 * [Technology Stack](resources.md)
