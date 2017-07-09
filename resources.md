@@ -1,6 +1,6 @@
 # Technology Stack
 
-![](/assets/ss-technology-ecosystem.png)
+![Ecosystem](/assets/ss-technology-ecosystem.png)
 
 ## React
 
