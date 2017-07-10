@@ -30,14 +30,16 @@ Jest
 * [https://egghead.io/lessons/javascript-test-javascript-with-jest](https://egghead.io/lessons/javascript-test-javascript-with-jest)
 
 ## Package management
+Yarn \(NPM alternative\)
+
+* [https://www.sitepoint.com/yarn-vs-npm/](https://www.sitepoint.com/yarn-vs-npm/)
+
 
 NPM \(Node package manager\)
 
 * [https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-configuring-npm-and-creating-a-package-json](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-configuring-npm-and-creating-a-package-json)
 
-Yarn \(NPM alternative\)
 
-* [https://www.sitepoint.com/yarn-vs-npm/](https://www.sitepoint.com/yarn-vs-npm/)
 
 ## Linters
 

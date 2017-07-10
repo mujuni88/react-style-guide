@@ -10,7 +10,7 @@
 
 3. Dropbox
 
-4. Zeplin - Collaboration app for UI designers and frontend developers.
+4. Zeplin - _Collaboration app for UI designers and frontend developers._
 
 5. Github. Enable [2-factor-auth](https://github.com/blog/1614-two-factor-authentication).
 
