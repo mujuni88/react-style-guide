@@ -21,29 +21,29 @@ This is our guide for contributing to SchoolStatus projects. These steps are bas
 
 1. Make sure you are on the correct branch
 `git checkout branch`
-2. Sync `git pull` your local copy with upstream copy. Then `git push` syncs it to our forked copy. 
-3. Create our new branch. prefix branch with `hotfix/` or `feature/`
+2. Sync your local copy with upstream copy `git pull`. Then `git push` to sync to your forked copy. 
+3. Create our new branch. Prefix branch with `hotfix/` or `feature/`
 
 #### General rule of thumb:
 
 * Working on a bug in production?
 
-  create a branch from master
+ create a branch from master
 
-```
-$ git checkout master
-$ git pull upstream master && git push origin master
-$ git checkout -b hotfix/readme-update
-```
+   ```
+   $ git checkout master
+   $ git pull upstream master && git push origin master
+   $ git checkout -b hotfix/readme-update
+   ```
 
 * Working on a new feature?
 
   create a branch from dev
 
-```
-$ git checkout dev
-$ git pull upstream dev && git push origin dev
-$ git checkout -b feature/new-content
-```
+   ```
+   $ git checkout dev
+   $ git pull upstream dev && git push origin dev
+   $ git checkout -b feature/new-content
+   ```
 
 
