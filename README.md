@@ -1,6 +1,6 @@
 # Front-end Developer's Guide
 
-> With great freedom, comes great responsibility
+> With great freedom, comes great responsibility. Do your work.
 
 ## 
 
@@ -20,8 +20,6 @@
 ## Recommendations
 
 * [Code Editor](editor.md)
-
-
 
 
 
