@@ -5,6 +5,7 @@
 * [Introduction](README.md)
 * [Technology Stack](resources.md)
 * [New Dev](new-dev-checklist.md)
+* [Git Flow](git-flow.md)
 
 ## Style Guide
 
@@ -16,6 +17,4 @@
 ## Recommendations
 
 * [Code Editor](editor.md)
-
-
 
