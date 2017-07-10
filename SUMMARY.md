@@ -4,6 +4,7 @@
 
 * [Introduction](README.md)
 * [Technology Stack](resources.md)
+* [New Dev Checklist](new-dev-checklist.md)
 
 ## Styleguide
 
