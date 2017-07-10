@@ -4,9 +4,9 @@
 
 * [Introduction](README.md)
 * [Technology Stack](resources.md)
-* [New Dev Checklist](new-dev-checklist.md)
+* [New Dev](new-dev-checklist.md)
 
-## Styleguide
+## Style Guide
 
 * [Styling Components](styling-components.md)
 * [Class Components](class-components.md)
@@ -16,4 +16,6 @@
 ## Recommendations
 
 * [Code Editor](editor.md)
+
+
 
