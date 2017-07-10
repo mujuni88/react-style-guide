@@ -50,5 +50,6 @@ This is our guide for contributing to SchoolStatus projects. These steps are bas
 ## Step 3: Create a PR
 
 1. push your branch to the origin remote one `$ git push -u origin hotfix/readme-update`
-2. ![](/assets/Pull_Requests_·_schoolstatus_sasha.png)
+2. Click New pull request
+   ![](/assets/Pull_Requests_·_schoolstatus_sasha.png)
 
