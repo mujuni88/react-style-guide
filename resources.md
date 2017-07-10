@@ -12,9 +12,9 @@
 * We use cutting edge javascript that is not available in all browsers yet. Babel is the Javascript compiler that allows us to use next generation Javascript today. 
 * [https://babeljs.io/](https://babeljs.io/)
 
-## MobX
+## State Management
 
-* State management solution
+MobX
 * [https://egghead.io/courses/manage-complex-state-in-react-apps-with-mobx](https://egghead.io/courses/manage-complex-state-in-react-apps-with-mobx)
 * [https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254](https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254)
 
