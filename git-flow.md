@@ -17,8 +17,14 @@ This is our guide for contributing to SchoolStatus projects. These steps are bas
 
 ## Step 2: Working on a feature
 
-#### General rule of thumb:
 > Fix the thing you are working on.
+
+1. Make sure you are on the correct branch
+`git checkout branch`
+2. Sync `git pull` your local copy with upstream copy. Then `git push` syncs it to our forked copy. 
+3. Create our new branch. prefix branch with `hotfix/` or `feature/`
+
+#### General rule of thumb:
 
 * Working on a bug in production?
 
@@ -39,9 +45,5 @@ $ git checkout dev
 $ git pull upstream dev && git push origin dev
 $ git checkout -b feature/new-content
 ```
-1. Make sure you are on the correct branch
-`git checkout branch`
-2. Sync `git pull` your local copy with upstream copy. Then `git push` syncs it to our forked copy. 
-3. Create our new branch. prefix branch with `hotfix/` or `feature/`
 
 
