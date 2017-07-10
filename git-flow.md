@@ -12,12 +12,13 @@ This is our guide for contributing to SchoolStatus projects. These steps are bas
 
 3. `cd sasha`
 
-4. Setup remote so that you can point to the original project to retrieve any new changes to your local copy. 
+4. Setup remote so that you can point to the original project to retrieve any new changes to your local copy.   
    `git remote add upstream git@github.com:schoolstatus/sasha.git`
 
 ## Step 2: Working on a feature
 
-####  General rule of thumb:
+#### General rule of thumb:
+> Fix the thing you are working on.
 
 * Working on a bug in production?
 
@@ -36,6 +37,11 @@ $ git checkout -b hotfix/readme-update
 ```
 $ git checkout dev
 $ git pull upstream dev && git push origin dev
-$ git checkout -b hotfix/readme-update
+$ git checkout -b feature/new-content
 ```
+1. Make sure you are on the correct branch
+`git checkout branch`
+2. Sync `git pull` your local copy with upstream copy. Then `git push` syncs it to our forked copy. 
+3. Create our new branch. prefix branch with `hotfix/` or `feature/`
+
 
