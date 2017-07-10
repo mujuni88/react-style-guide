@@ -24,7 +24,6 @@ This is our guide for contributing to SchoolStatus projects. These steps are bas
 2. Sync your local copy with upstream copy `git pull`. Then `git push` to sync to your forked copy. 
 3. Create our new branch. Prefix branch with `hotfix/` or `feature/`
 
-#####Not sure how to write commit messages?Read Linell's [post](https://gist.github.com/Linell/bd8100c4e04348c7966d).
 #### General rule of thumb:
 
 * Working on a bug in production?
@@ -46,7 +45,10 @@ This is our guide for contributing to SchoolStatus projects. These steps are bas
    $ git pull upstream dev && git push origin dev
    $ git checkout -b feature/new-content
    ```
+**Not sure how to write commit messages? Read Linell's [post](https://gist.github.com/Linell/bd8100c4e04348c7966d).**
 
 ## Step 3: Create a PR
 
+1. push your branch to the origin remote one `$ git push -u origin hotfix/readme-update`
+2. ![](/assets/Pull_Requests_·_schoolstatus_sasha.png)
 
