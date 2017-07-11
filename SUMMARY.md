@@ -1,20 +1,13 @@
 # Summary
 
-## Getting Started
-
 * [Introduction](README.md)
-* [Technology Stack](resources.md)
-* [New Dev](new-dev-checklist.md)
-* [Git Flow](git-flow.md)
 
-## Style Guide
+* [Front-end](frontend/README.md)
+  * [Getting Started](frontend/getting-started.md)
+  * [Style Guide](frontend/styleguide/README.md)
+  * [Git Flow](frontend/git-flow.md)
+  * [Technology Stack](frontend/stack.md)
 
-* [Styling Components](styling-components.md)
-* [Class Components](class-components.md)
-* [Functional Components](functional-components.md)
-* [Conditional Jsx](conditional-jsx.md)
-
-## Recommendations
-
-* [Code Editor](editor.md)
+* [Recommendations](recommendations/README.md)
+  * [Code Editor](recommendations/editor.md)
 
