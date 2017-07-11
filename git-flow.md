@@ -1,6 +1,6 @@
 # Git Flow
 
-This is our guide for contributing to SchoolStatus projects. These steps are based on the following [article](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
+This is our guide for contributing to SchoolStatus projects. These steps are based on this [article](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
 
 ## Step 1: Setup a local copy on your computer
 
