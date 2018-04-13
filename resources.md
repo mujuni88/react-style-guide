@@ -5,12 +5,12 @@
 ## React
 
 * Main framework for our projects. We use an ejected instance of [create-react-app](https://github.com/facebookincubator/create-react-app).
-* [https://egghead.io/technologies/react](https://egghead.io/technologies/react) 
+* [https://egghead.io/courses/start-learning-react](https://egghead.io/courses/start-learning-react) 
 
 ## Javascript/ES6/Babel
 
 * We use cutting edge javascript that is not available in all browsers yet. Babel is the Javascript compiler that allows us to use next generation Javascript today. 
-* [https://babeljs.io/](https://babeljs.io/)
+* [https://egghead.io/courses/learn-es6-ecmascript-2015](https://egghead.io/courses/learn-es6-ecmascript-2015)
 
 ## State Management
 
@@ -43,9 +43,9 @@ NPM \(Node package manager\)
 
 ## Linters
 
-Standard js
+ESLint
 
-* [https://standardjs.com/](https://standardjs.com/)
+* [https://egghead.io/lessons/javascript-linting-javascript-with-eslint](https://egghead.io/lessons/javascript-linting-javascript-with-eslint)
 
 ## Version control
 
